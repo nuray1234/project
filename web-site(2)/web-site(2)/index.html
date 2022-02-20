@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kokosik</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Photo/Favicon.jpg">
+
+    <script src="https://kit.fontawesome.com/97b5bfd43a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<section id="title">
+    <!--  Nav Bar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a id="nb" class="navbar-brand" href="index.html">Kokosik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="nl" class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Girls.html">Girls</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Boys.html">Boys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Order.html">Order</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Title-->
+    <div class="container">
+        <div class="row px-auto">
+            <div class="col-lg-6">
+                <h1 id="home-h1">Give your children warmth and tenderness!</h1>
+                <p id="home-p">Our products are based on a legacy of quality and innovation that has earned us the trust of generations of families</p>
+            </div>
+            <div class="col-lg-6">
+                <img id="main" src="Photo/photo1643218401.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col-lg-6" id="car">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="3000">
+                            <img src="Photo/toddler.jpg" class="d-block w-100 mx-auto" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="3000">
+                            <img src="Photo/np.jpg" class="d-block w-100 mx-auto" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="3000">
+                            <img src="Photo/valentine.jpg" class="d-block w-100 mx-auto" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container" style="display: flex; align-items: center; justify-content: center; padding: 1.3rem 0; margin-top: 1.3rem; background-color: ghostwhite">
+                    <h3 style="margin: 1rem 1rem; font-weight: normal; font-size: 2rem">Registration</h3>
+                    <button class="sub" onclick="document.getElementById('id01').style.display='block'" style="width:10rem; font-size: 1.2rem; margin-left: 1.1rem">Start</button>
+                </div>
+              </div>
+                <div id="id01" class="modal">
+                    <form class="modal-content animate" method="post">
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input class="acc" id="login" style="border: 1px solid #ccc" type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input class="acc" id="pass" style="border: 1px solid #ccc" type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button id="submit" class="sub" type="submit">Submit</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" style="color: white; border: 0" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="mailto:nuraymaratova89@gmail.com">password?</a></span>
+                        </div>
+                    </form>
+                </div>
+            <div class="col-lg-5">
+                <div class="jumbotron">
+                    <h1 class="display-8">Welcome to our online-shop!</h1>
+                    <p class="lead">If you did not manage to get a discount, then do not be discouraged
+                    <hr class="my-4">
+                    <p>follow this link and wait for new promotions</p>
+                    <a class="btn btn-outline-primary btn-lg mx-auto" href="https://instagram.com/kokosik.ns?utm_medium=copy_link" role="button">Learn more</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+    <div class="container">
+        <h3 id="about">About us</h3>
+        <ul class="ab" class="list-unstyled">
+            <li class="media">
+                <img src="Photo/carter.jpg" class="mr-3" id="carter" alt="...">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">Carter's</h5>
+                    <p class="info-com">Is the leading brand of children’s clothing,
+                        gifts and accessories in America, selling more than 10 products
+                        <br>
+                        for every child born in the U.S.Our designs are based on a heritage
+                        of quality and innovation that has
+                        <br>
+                        earned us the trust of generations of families</div>
+            </li>
+            <li class="media my-4">
+                <img src="Photo/next.jpg" class="mr-3" alt="...">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">Next</h5>
+                    <p class="info-com">Whether you're welcoming a baby of your own into the world or looking for the perfect baby gift, find
+                        <br>
+                        everything from baby clothing to everyday essentials. Our baby range includes
+                        super soft fabrics and
+                        <br>
+                        printed back labels to prevent skin irritation,
+                        as well as integrated scratch mittens and the cutest designs.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<div id="ret" class="container">
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3" id="foot">
+            <li class="nav-item"><a class="fa" href="https://instagram.com/nuraymaratova?utm_medium=copy_link"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li class="nav-item"><a class="fa" href="https://api.whatsapp.com/send?phone=77052728278&text="><i class="fab fa-whatsapp fa-2x"></i></a></li>
+            <li class="nav-item"><a class="fa" href="http://t.me/nuraymaratova"><i class="fab fa-telegram-plane fa-2x"></i></a></li>
+        </ul>
+        <div class="alert alert-light" id="foot" role="alert">
+            For the purpose of cooperation our<a href="mailto:nuraymaratova89@gmail.com" class="alert-link">email.</a>Give it a click if you want to write to us
+        </div>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
